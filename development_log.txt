@@ -1,0 +1,34 @@
+Skinet-Project
+
+SECTION 2: API BASICS
+
+01) Created ASP.NET Core Web API project 
+	: API
+	
+02) Created the controller class for Products 
+	: ProductsController
+	
+03) Created the Entity class for Products 
+	: Entities.Products
+
+04) Installing NuGet packages for "API" project:
+	: Microsoft.EntityFrameworkCore.Sqllite
+	: Microsoft.EntityFrameworkCore.Design
+	
+05) Created the DbContext clas to represent a session with the database
+	: StoreContext
+	[Also see: Unit of work and repository pattern]
+	
+06) Configured the connection string for SqlLite connection.
+	: appsettings.Development.json
+	
+07) Registered the DbContext and the configured connection string in Step 6 to the dependency injection container.
+	: Program
+	
+08) Creating the migration files and updating the database using Entity Framework's migration and populating it with data (writing manual query).
+
+09) Querying the data from the controller class.
+	: ProductsController -> GetProducts, GetProduct
+	[Also see: Section 2, Video 15 of the Udemy course for a good explanation of the working and Dependency injection].
+	
+10)

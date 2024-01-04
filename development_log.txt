@@ -31,4 +31,27 @@ SECTION 2: API BASICS
 	: ProductsController -> GetProducts, GetProduct
 	[Also see: Section 2, Video 15 of the Udemy course for a good explanation of the working and Dependency injection].
 	
-10)
+10) Importing Postman collections.
+
+11) Creating Infrastructure and Core projects and re-organizing the entire project.
+
+12) Creating a github repository and updating it.
+
+SECTION 3: API ARCHITECTURE
+
+1) Theory on the Repository Pattern
+	[Also see: Section 3, Video 21 of the Udemy course for a very good explanation on this]
+	
+2) Added an interface to implement the repository pattern for products and added a class that implements the interface. Registered the interface and it's class implementation with the DI container.
+	: IProductRepository, ProductRepository
+	
+3) Updated the controller to use the repository instead of the DbContext directly.
+
+4) Created/Extended Entities for products
+	: BaseEntity, Product, ProductType, ProductBrand
+	
+5) Added these new entities as DbSets to StoreContext
+	: StoreContext
+
+6) Generated migrations for these new entities.
+	: InitialCreate

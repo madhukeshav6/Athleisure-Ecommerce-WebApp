@@ -55,3 +55,23 @@ SECTION 3: API ARCHITECTURE
 
 6) Generated migrations for these new entities.
 	: InitialCreate
+	
+7) Confugured the migrations.
+	: Infrastructure -> Data -> Config -> ProductConfiguration
+	
+8) Applying the migrations and creating the database at app startup whenever necessary.
+	: Program
+	
+9) Adding seed data source(JSON files) to the project and read data from it and doing it at startup whenever necessary.
+	: Infrastructure -> Data -> SeedData -> *.json
+	: Infrastructure -> Data -> StoreContextSeed
+	: Program
+	
+10) Create new endpoints to get ProductBrands and ProductTypes. Also, write code to get brand and type information along with products using Include()
+	: Core -> Interfaces -> IProductRepository
+	: Infrastructure -> Data -> ProductRepository
+	: API -> Controllers -> ProductsController
+	
+SECTION 4: API GENERIC REPOSITORY
+
+

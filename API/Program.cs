@@ -33,6 +33,8 @@ namespace API
 
             app.UseStaticFiles();
 
+            app.UseCors("CorsPolicy");
+
             //app.UseHttpsRedirection(); ||Commented because it might cause warnings in our app later on
 
             app.UseAuthorization();

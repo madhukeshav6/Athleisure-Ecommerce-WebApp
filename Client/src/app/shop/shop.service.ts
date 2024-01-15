@@ -15,6 +15,10 @@ export class ShopService {
 
   constructor(private http: HttpClient) { }
 
+  getProduct(id: number) {
+    return this.http.get<Product>(this.baseUrl + 'products/' + id);
+  }
+
   getProducts(shopParams: shopParams) {
 
     let params = new HttpParams();

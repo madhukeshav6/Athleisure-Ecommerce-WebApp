@@ -15,7 +15,7 @@ export class ProductDetailsComponent implements OnInit{
   constructor(private shopService: ShopService,
     private activatedRoute: ActivatedRoute,
     private breadcrumbService: BreadcrumbService) {
-
+      this.breadcrumbService.set('@productDetails', '');
   }
 
   product?: Product;

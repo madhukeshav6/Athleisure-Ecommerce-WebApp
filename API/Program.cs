@@ -23,6 +23,8 @@ namespace API
             builder.Services.AddControllers();
             builder.Services.AddApplicationServices(builder.Configuration);
             builder.Services.AddIdentityServices(builder.Configuration);
+            builder.Services.AddSwaggerDocumentation();
+
 
             var app = builder.Build();
 
@@ -32,8 +34,7 @@ namespace API
             
             app.UseStatusCodePagesWithReExecute("/errors/{0}"); //Not found enpoint error handler
 
-            app.UseSwagger();
-            app.UseSwaggerUI();
+            app.UseSwaggerDocumentation();
 
             app.UseStaticFiles();
 

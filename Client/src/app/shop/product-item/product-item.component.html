@@ -1,4 +1,49 @@
-<div class="card h-100 shadow-sm" *ngIf="product">
+<!--=============== FLATICON ===============-->
+<link
+rel="stylesheet"
+href="https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css"
+/>
+
+<div class="product__item" *ngIf="product">
+    <div class="product__banner">
+      <a href="details.html" class="product__images">
+        <img
+          src="{{product.pictureUrl}}"
+          alt="{{product.name}}"
+          class="product__img default"
+        />
+      </a>
+
+      <div class="product__actions">
+        <a class="action__btn" aria-label="View" routerLink="/shop/{{product.id}}">
+          <i class="fi fi-rs-eye"></i>
+        </a>
+      </div>
+
+      <div class="product__badge light-pink">Hot</div>
+    </div>
+
+    <div class="product__content">
+      <span class="product__category">{{product.productType}}</span>
+      <a href="details.html">
+        <h3 class="product__title">{{product.name}}</h3>
+      </a>
+      <div class="product__price flex">
+        <span class="new__price">{{product.price | currency}}</span>
+        <span class="old__price">{{product.price * 1.25 | currency}}</span>
+      </div>
+
+      <a
+        class="action__btn cart__btn"
+        aria-label="Add To Cart"
+        (click)="addItemToBasket()"
+      >
+        <i class="fi fi-rs-shopping-bag-add"></i>
+      </a>
+    </div>
+</div>
+
+<!--div class="card h-100 shadow-sm" *ngIf="product">
 
     <div class="image position-relative" style="cursor: pointer;">
         <img src="{{product.pictureUrl}}" alt="{{product.name}}" class="img-fluid">
@@ -14,4 +59,4 @@
         </a>
         <span class="mb-2">{{product.price | currency}}</span>
     </div>
-</div>
+</div-->

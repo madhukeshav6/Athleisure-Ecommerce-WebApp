@@ -1,146 +1,146 @@
 [
   {
-    "Name": "Angular Speedster Board 2000",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Name": "Nike Air Max 1'",
+    "Description": "Meet the leader of the pack. Walking on clouds above the noise, the Air Max 1 blends timeless design with cushioned comfort. Sporting a fast-paced look, wavy mudguard and Nike Air, this classic icon hit the scene in '87 and continues to be the soul of the franchise today.",
     "Price": 200,
-    "PictureUrl": "images/products/sb-ang1.png",
+    "PictureUrl": "images/products/latest/nike-air-max-1-shoes.png",
     "ProductTypeId": 1,
     "ProductBrandId": 1
   },
   {
-    "Name": "Green Angular Board 3000",
-    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
+    "Name": "Dunk Low Retro Shoes",
+    "Description": "Created for the hardwood but taken to the streets, the Nike Dunk Low Retro returns with crisp overlays and original team colours.",
     "Price": 150,
-    "PictureUrl": "images/products/sb-ang2.png",
+    "PictureUrl": "images/products/latest/dunk-low-retro-shoe.png",
     "ProductTypeId": 1,
     "ProductBrandId": 1
   },
   {
-    "Name": "Core Board Speed Rush 3",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 180,
-    "PictureUrl": "images/products/sb-core1.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 2
+    "Name": "Gazelle Shoes",
+    "Description": "Adidas Originals Shoe in Gazelle Blue color",
+    "Price": 110,
+    "PictureUrl": "images/products/latest/Gazelle_Shoes_Blue.webp",
+    "ProductBrandId": 2,
+    "ProductTypeId": 1
   },
   {
-    "Name": "Net Core Super Board",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 300,
-    "PictureUrl": "images/products/sb-core2.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 2
+    "Name": "RS-X Geek Sneaker",
+    "Description": "RS-X Geek Unisex Sneakers by Puma",
+    "Price": 200,
+    "PictureUrl": "images/products/latest/RS-X-Geek-Unisex-Sneakers.webp",
+    "ProductBrandId": 3,
+    "ProductTypeId": 1
   },
   {
-    "Name": "React Board Super Whizzy Fast",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 250,
-    "PictureUrl": "images/products/sb-react1.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 4
+    "Name": "Essential Aeroready Cap",
+    "Description": "Essential Aeroready Blue Cap by Adidas",
+    "Price": 20,
+    "PictureUrl": "images/products/latest/Essential_AEROREADY_Cap_Blue.webp",
+    "ProductBrandId": 2,
+    "ProductTypeId": 2
   },
   {
-    "Name": "Typescript Entry Board",
-    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-    "Price": 120,
-    "PictureUrl": "images/products/sb-ts1.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 5
+    "Name": "Training Cap",
+    "Description": "Unisex Training Cap by Puma in collaboration with One8",
+    "Price": 30,
+    "PictureUrl": "images/products/latest/PUMA-x-one8-Unisex-Training-Cap.webp",
+    "ProductBrandId": 3,
+    "ProductTypeId": 2
   },
   {
-    "Name": "Core Blue Hat",
-    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 10,
-    "PictureUrl": "images/products/hat-core1.png",
-    "ProductTypeId": 2,
-    "ProductBrandId": 2
+    "Name": "Adi Dassler Cap",
+    "Description": "Green Adi Dassler Cap by Adidas Originals",
+    "Price": 49,
+    "PictureUrl": "images/products/latest/Adi_Dassler_Cap_Green.webp",
+    "ProductBrandId": 2,
+    "ProductTypeId": 2
   },
   {
-    "Name": "Green React Woolen Hat",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 8,
-    "PictureUrl": "images/products/hat-react1.png",
-    "ProductTypeId": 2,
-    "ProductBrandId": 4
+    "Name": "Nike Club Cap",
+    "Description": "Nike Club Unstructured Futura Wash Cap",
+    "Price": 66,
+    "PictureUrl": "images/products/latest/club-unstructured-futura-wash-cap.webp",
+    "ProductBrandId": 1,
+    "ProductTypeId": 2
   },
   {
-    "Name": "Purple React Woolen Hat",
-    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 15,
-    "PictureUrl": "images/products/hat-react2.png",
-    "ProductTypeId": 2,
-    "ProductBrandId": 4
+    "Name": "Old Skool Shoe",
+    "Description": "The Iconic Shoe that Brought our Sidestripe to Life: This is the Old Skool by Vans",
+    "Price": 200,
+    "PictureUrl": "images/products/latest/old_skool_vans_shoe.webp",
+    "ProductBrandId": 4,
+    "ProductTypeId": 1
   },
   {
-    "Name": "Blue Code Gloves",
-    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
-    "Price": 18,
-    "PictureUrl": "images/products/glove-code1.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 3
-  },
-  {
-    "Name": "Green Code Gloves",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 15,
-    "PictureUrl": "images/products/glove-code2.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 3
-  },
-  {
-    "Name": "Purple React Gloves",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
-    "Price": 16,
-    "PictureUrl": "images/products/glove-react1.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Green React Gloves",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 14,
-    "PictureUrl": "images/products/glove-react2.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Redis Red Boots",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 250,
-    "PictureUrl": "images/products/boot-redis1.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 6
-  },
-  {
-    "Name": "Core Red Boots",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 189.99,
-    "PictureUrl": "images/products/boot-core2.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 2
-  },
-  {
-    "Name": "Core Purple Boots",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 199.99,
-    "PictureUrl": "images/products/boot-core1.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 2
-  },
-  {
-    "Name": "Angular Purple Boots",
-    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
+    "Name": "Nike Sportswear 'LNY'",
+    "Description": "Awaken your inner dragon in an everyday classic—a soft tee made from 100% cotton.",
     "Price": 150,
-    "PictureUrl": "images/products/boot-ang2.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 1
+    "PictureUrl": "images/products/latest/sportswear-lny-t-shirt.jfif",
+    "ProductBrandId": 1,
+    "ProductTypeId": 3
   },
   {
-    "Name": "Angular Blue Boots",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 180,
-    "PictureUrl": "images/products/boot-ang1.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 1
+    "Name": "Essentials Single Jersey",
+    "Description": "Essentials single jersey linear embroidered logo tee by Adidas",
+    "Price": 250,
+    "PictureUrl": "images/products/latest/Essentials_Single_Jersey_Alt.webp",
+    "ProductBrandId": 2,
+    "ProductTypeId": 3
+  },
+  {
+    "Name": "Holder St Classic T-Shirt",
+    "Description": "The Holder St Classic T-Shirt is a short sleeve crewneck tee made from a heavier weight cotton and features the Vans logo on the front and bigger Vans graphic on the back.",
+    "Price": 249,
+    "PictureUrl": "images/products/latest/vans-shirt-1.jfif",
+    "ProductBrandId": 4,
+    "ProductTypeId": 3
+  },
+  {
+    "Name": "Buzz Unisex Backpack",
+    "Description": "Get busy with it in this practical backpack that's perfect for stowing your stuff on the move. Organise your life in style with this sleek",
+    "Price": 349,
+    "PictureUrl": "images/products/latest/PUMA-Buzz-Unisex-Backpack.webp",
+    "ProductBrandId": 3,
+    "ProductTypeId": 4
+  },
+  {
+    "Name": "Old Skool Classic Backpack",
+    "Description": "The Old Skool Classic Backpack is a favorite for good reason.",
+    "Price": 399,
+    "PictureUrl": "images/products/latest/vans-backpack-1.jfif",
+    "ProductBrandId": 4,
+    "ProductTypeId": 4
+  },
+  {
+    "Name": "Power Backpack",
+    "Description": "Shadow navy colored power backpack by Adidas",
+    "Price": 459,
+    "PictureUrl": "images/products/latest/Power_Backpack_Blue.webp",
+    "ProductBrandId": 4,
+    "ProductTypeId": 4
+  },
+  {
+    "Name": "Nike Hayward Backpack",
+    "Description": "Whether you're off to work, training or play, you need a bag that can carry everything you need for the day. ",
+    "Price": 499,
+    "PictureUrl": "images/products/latest/hayward-backpack.jfif",
+    "ProductBrandId": 1,
+    "ProductTypeId": 4
+  },
+  {
+    "Name": "Team 31 Club Hoodie",
+    "Description": "NBA fans, unite! Show your love to the league with the Team 31 Club Hoodie.",
+    "Price": 549,
+    "PictureUrl": "images/products/latest/team-31-club-nba-pullover-hoodie.jfif",
+    "ProductBrandId": 1,
+    "ProductTypeId": 5
+  },
+  {
+    "Name": "Rekive Graphic Hoodie",
+    "Description": "Adidas Wonder Steel Rekive Graphic Hoodie",
+    "Price": 449,
+    "PictureUrl": "images/products/latest/adidas_Rekive_Graphic_Hoodie_Blue.webp",
+    "ProductBrandId": 2,
+    "ProductTypeId": 5
   }
 ]

@@ -1,16 +1,18 @@
-<carousel [isAnimated]="true">
-  <slide>
-    <img src="assets/images/hero1.jpg" alt="slide" style="display: block; width: 100%;">
-  </slide>
-  <slide>
-    <img src="assets/images/hero2.jpg" alt="slide" style="display: block; width: 100%;">
-  </slide>
-  <slide>
-    <img src="assets/images/hero3.jpg" alt="slide" style="display: block; width: 100%;">
-  </slide>
-</carousel>
-<section class="featured">
-  <div class="d-flex justify-content-center pt-4">
-    <h1>Welcome to the Shop!</h1>
-  </div>
-</section>
+<main class="main">
+  <section class="home section--lg">
+    <div class="home__container container grid">
+      <div class="home__content">
+        <span class="home__subtitle">Hot promotions</span>
+        <h1 class="home__title">
+          Fashion Trending <span>Great Collection</span>
+        </h1>
+        <p class="home__description">
+          Save more with coupons & up to 20% off
+        </p>
+        <a routerLink="/shop" routerLinkActive="active" class="btn-custom">Shop Now</a>
+      </div>
+
+      <img src="assets/images/home-img.png" alt="" class="home__img" />
+    </div>
+  </section>
+</main>

@@ -1,0 +1,28 @@
+.login-register__container {
+  align-items: center;
+}
+
+.login {
+  border: 1px solid var(--border-color-alt);
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+@media screen and (max-width: 1400px) {
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 992px) {
+  .login {
+    padding: 1.25rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .login-register__container {
+    grid-template-columns: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+}
+@media screen and (max-width: 350px) {
+}

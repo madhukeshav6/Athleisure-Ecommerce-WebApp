@@ -59,8 +59,8 @@ export class ShopComponent implements OnInit{
     })
   }
 
-  onBrandSelected(brandId: number) {
-    this.shopParams.brandId = brandId;
+  onBrandSelected(event: any) {
+    this.shopParams.brandId = event.target.value;
     //Resetting it to 1 whenever new records are fetched because of the following bug:
     //1. You are currently in page number 2
     //2. You apply a filter to select products with brandId = 2
@@ -70,8 +70,8 @@ export class ShopComponent implements OnInit{
     this.getProducts();
   }
 
-  onTypeSelected(typeId: number) {
-    this.shopParams.typeId = typeId;
+  onTypeSelected(event: any) {
+    this.shopParams.typeId = event.target.value;
     this.shopParams.pageNumber = 1;
     this.getProducts();
   }

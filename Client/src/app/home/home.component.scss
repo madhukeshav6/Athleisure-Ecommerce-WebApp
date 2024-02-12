@@ -35,6 +35,9 @@
 }
 
 @media screen and (max-width: 1400px) {
+  .home__title {
+    font-size: var(--h2-font-size);
+  }
 }
 @media screen and (max-width: 1200px) {
   .home__container {

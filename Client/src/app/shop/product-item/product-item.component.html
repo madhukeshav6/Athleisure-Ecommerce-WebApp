@@ -6,7 +6,7 @@ href="https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular
 
 <div class="product__item" *ngIf="product">
     <div class="product__banner">
-      <a href="details.html" class="product__images">
+      <a class="product__images">
         <img
           src="{{product.pictureUrl}}"
           alt="{{product.name}}"
@@ -19,13 +19,11 @@ href="https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular
           <i class="fi fi-rs-eye"></i>
         </a>
       </div>
-
-      <div class="product__badge light-pink">Hot</div>
     </div>
 
     <div class="product__content">
       <span class="product__category">{{product.productType}}</span>
-      <a href="details.html">
+      <a routerLink="/shop/{{product.id}}">
         <h3 class="product__title">{{product.name}}</h3>
       </a>
       <div class="product__price flex">

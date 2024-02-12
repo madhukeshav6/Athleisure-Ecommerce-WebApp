@@ -59,7 +59,7 @@
     "Name": "Nike Club Cap",
     "Description": "Nike Club Unstructured Futura Wash Cap",
     "Price": 66,
-    "PictureUrl": "images/products/latest/club-unstructured-futura-wash-cap.webp",
+    "PictureUrl": "images/products/latest/club-unstructured-futura-wash-cap.png",
     "ProductBrandId": 1,
     "ProductTypeId": 2
   },
@@ -67,7 +67,7 @@
     "Name": "Old Skool Shoe",
     "Description": "The Iconic Shoe that Brought our Sidestripe to Life: This is the Old Skool by Vans",
     "Price": 200,
-    "PictureUrl": "images/products/latest/old_skool_vans_shoe.webp",
+    "PictureUrl": "images/products/latest/old_skool_vans_shoe.png",
     "ProductBrandId": 4,
     "ProductTypeId": 1
   },
@@ -75,7 +75,7 @@
     "Name": "Nike Sportswear 'LNY'",
     "Description": "Awaken your inner dragon in an everyday classic—a soft tee made from 100% cotton.",
     "Price": 150,
-    "PictureUrl": "images/products/latest/sportswear-lny-t-shirt.jfif",
+    "PictureUrl": "images/products/latest/sportswear-lny-t-shirt.png",
     "ProductBrandId": 1,
     "ProductTypeId": 3
   },
@@ -91,7 +91,7 @@
     "Name": "Holder St Classic T-Shirt",
     "Description": "The Holder St Classic T-Shirt is a short sleeve crewneck tee made from a heavier weight cotton and features the Vans logo on the front and bigger Vans graphic on the back.",
     "Price": 249,
-    "PictureUrl": "images/products/latest/vans-shirt-1.jfif",
+    "PictureUrl": "images/products/latest/vans-shirt-1.png",
     "ProductBrandId": 4,
     "ProductTypeId": 3
   },
@@ -107,7 +107,7 @@
     "Name": "Old Skool Classic Backpack",
     "Description": "The Old Skool Classic Backpack is a favorite for good reason.",
     "Price": 399,
-    "PictureUrl": "images/products/latest/vans-backpack-1.jfif",
+    "PictureUrl": "images/products/latest/vans-backpack-1.png",
     "ProductBrandId": 4,
     "ProductTypeId": 4
   },
@@ -123,7 +123,7 @@
     "Name": "Nike Hayward Backpack",
     "Description": "Whether you're off to work, training or play, you need a bag that can carry everything you need for the day. ",
     "Price": 499,
-    "PictureUrl": "images/products/latest/hayward-backpack.jfif",
+    "PictureUrl": "images/products/latest/hayward-backpack.png",
     "ProductBrandId": 1,
     "ProductTypeId": 4
   },
@@ -131,7 +131,7 @@
     "Name": "Team 31 Club Hoodie",
     "Description": "NBA fans, unite! Show your love to the league with the Team 31 Club Hoodie.",
     "Price": 549,
-    "PictureUrl": "images/products/latest/team-31-club-nba-pullover-hoodie.jfif",
+    "PictureUrl": "images/products/latest/team-31-club-nba-pullover-hoodie.png",
     "ProductBrandId": 1,
     "ProductTypeId": 5
   },

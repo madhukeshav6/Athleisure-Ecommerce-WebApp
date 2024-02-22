@@ -1,4 +1,4 @@
-import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { Component, ElementRef, HostListener, OnInit, ViewChild } from '@angular/core';
 import { ShopService } from './shop.service';
 import { Product } from '../shared/models/product';
 import { Brand } from '../shared/models/brand';
@@ -22,15 +22,62 @@ export class ShopComponent implements OnInit{
     {name: 'Price: High to low', value: 'priceDsc'}
   ]
   totalCount = 0;
+  currentScreenWidth: any = -1;
+  previousScreenWidth: any = -1;
+  getProductsAfterResize: boolean = false;
 
   constructor(private shopService: ShopService) {
 
   }
 
   ngOnInit(): void {
+    this.updateScreenWidth();
+    this.determinePageSizeBasedOnScreenWidth();
     this.getProducts();
     this.getBrands();
     this.getTypes();
+  }
+
+  updateScreenWidth() {
+    this.previousScreenWidth = this.currentScreenWidth;
+    this.currentScreenWidth = window.innerWidth;
+  }
+
+  @HostListener('window:resize', ['$event'])
+  onWindowResize() {
+    this.updateScreenWidth();
+    this.determinePageSizeBasedOnScreenWidth();
+  }
+
+  determinePageSizeBasedOnScreenWidth() {
+
+    if(this.previousScreenWidth === -1 && this.currentScreenWidth <= 1400) {
+      this.shopParams.pageSize = 6;
+    }
+
+    if(this.previousScreenWidth === -1 && this.currentScreenWidth <= 768) {
+      this.shopParams.pageSize = 4;
+    }
+
+    if(this.previousScreenWidth > 1400 && this.currentScreenWidth <= 1400) {
+      this.shopParams.pageSize = 6;
+      this.getProducts();
+    }
+
+    if(this.previousScreenWidth <= 1400 && this.currentScreenWidth > 1400) {
+      this.shopParams.pageSize = 8;
+      this.getProducts();
+    }
+
+    if(this.previousScreenWidth > 768 && this.currentScreenWidth <= 768) {
+      this.shopParams.pageSize = 4;
+      this.getProducts();
+    }
+
+    if(this.previousScreenWidth <= 768 && this.currentScreenWidth > 768) {
+      this.shopParams.pageSize = 6;
+      this.getProducts();
+    }
   }
   
   getProducts() {
@@ -85,6 +132,11 @@ export class ShopComponent implements OnInit{
     if(this.shopParams.pageNumber != event) {
       this.shopParams.pageNumber = event;
       this.getProducts();
+      window.scroll({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+      });
     }
   }
 
